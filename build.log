@@ -1,0 +1,147 @@
+[0m[1;34m# Check configuration tokens[0m
+[0m[1;34m# Ensure build layout[0m
+[0m[1;34m# Check configuration tokens[0m
+[0m[1;34m# Preparing build[0m
+[0m[1;34m# Check requirements for android[0m
+[0m[1;30m# Search for Git (git)[0m
+[0m[1;30m#  -> found at /usr/bin/git[0m
+[0m[1;30m# Search for Cython (cython)[0m
+[0m[1;30m#  -> found at /home/hkr/جهاد/school_management_android/venv/bin/cython[0m
+[0m[1;30m# Search for Java compiler (javac)[0m
+[0m[1;30m#  -> found at /usr/lib/jvm/java-21-openjdk-amd64/bin/javac[0m
+[0m[1;30m# Search for Java keytool (keytool)[0m
+[0m[1;30m#  -> found at /usr/lib/jvm/java-25-openjdk-amd64/bin/keytool[0m
+[0m[1;34m# Install platform[0m
+[0m[1;30m# Run ['git', 'config', '--get', 'remote.origin.url'][0m
+[0m[1;30m# Cwd /home/hkr/جهاد/school_management_android/.buildozer/android/platform/python-for-android[0m
+https://github.com/kivy/python-for-android.git
+[0m[1;30m# Run ['git', 'branch', '-vv'][0m
+[0m[1;30m# Cwd /home/hkr/جهاد/school_management_android/.buildozer/android/platform/python-for-android[0m
+* master 957a3e5f [origin/master] Merge pull request #2959 from kivy/release-2024.01.21
+WARNING: The directory '/home/hkr/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+[0m[1;30m# Run ['/home/hkr/جهاد/school_management_android/venv/bin/python3', '-m', 'pip', 'install', '-q', 'appdirs', 'colorama>=0.3.3', 'jinja2', 'sh>=1.10, <2.0; sys_platform!="win32"', 'build', 'toml', 'packaging', 'setuptools'][0m
+[0m[1;30m# Cwd None[0m
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 Forbidden'))': /simple/appdirs/
+WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 Forbidden'))': /simple/appdirs/
+WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 Forbidden'))': /simple/appdirs/
+WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 Forbidden'))': /simple/appdirs/
+WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 Forbidden'))': /simple/appdirs/
+ERROR: Could not find a version that satisfies the requirement appdirs (from versions: none)
+ERROR: No matching distribution found for appdirs
+[0m[1;31m# Command failed: ['/home/hkr/جهاد/school_management_android/venv/bin/python3', '-m', 'pip', 'install', '-q', 'appdirs', 'colorama>=0.3.3', 'jinja2', 'sh>=1.10, <2.0; sys_platform!="win32"', 'build', 'toml', 'packaging', 'setuptools'][0m
+[0m[1;31m# ENVIRONMENT:[0m
+[0m[1;31m#     SHELL = '/usr/bin/zsh'[0m
+[0m[1;31m#     USER_ZDOTDIR = '/home/hkr'[0m
+[0m[1;31m#     QT_ACCESSIBILITY = '1'[0m
+[0m[1;31m#     COLORTERM = 'truecolor'[0m
+[0m[1;31m#     VSCODE_DEBUGPY_ADAPTER_ENDPOINTS = '/home/hkr/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-58a873b172ce0c4a.txt'[0m
+[0m[1;31m#     no_proxy = 'localhost,127.0.0.1,::1,*.local,.local,169.254.0.0/16,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'[0m
+[0m[1;31m#     XDG_MENU_PREFIX = 'gnome-'[0m
+[0m[1;31m#     TERM_PROGRAM_VERSION = '1.117.0'[0m
+[0m[1;31m#     GNOME_DESKTOP_SESSION_ID = 'this-is-deprecated'[0m
+[0m[1;31m#     QT_IM_MODULES = 'wayland;ibus'[0m
+[0m[1;31m#     POWERSHELL_UPDATECHECK = 'Off'[0m
+[0m[1;31m#     LANGUAGE = 'en_US:en'[0m
+[0m[1;31m#     LESS_TERMCAP_se = '\x1b[0m'[0m
+[0m[1;31m#     LESS_TERMCAP_so = '\x1b[01;33m'[0m
+[0m[1;31m#     POWERSHELL_TELEMETRY_OPTOUT = '1'[0m
+[0m[1;31m#     SSH_AUTH_SOCK = '/run/user/1000/gcr/ssh'[0m
+[0m[1;31m#     DOTNET_CLI_TELEMETRY_OPTOUT = '1'[0m
+[0m[1;31m#     MEMORY_PRESSURE_WRITE = 'c29tZSAyMDAwMDAgMjAwMDAwMAA='[0m
+[0m[1;31m#     PYDEVD_DISABLE_FILE_VALIDATION = '1'[0m
+[0m[1;31m#     ELECTRON_RUN_AS_NODE = '1'[0m
+[0m[1;31m#     XMODIFIERS = '@im=ibus'[0m
+[0m[1;31m#     NMAP_PRIVILEGED = ''[0m
+[0m[1;31m#     CLAUDE_CODE_HOST_SOCKS_PROXY_PORT = '33403'[0m
+[0m[1;31m#     DESKTOP_SESSION = 'gnome'[0m
+[0m[1;31m#     PWD = '/home/hkr/جهاد/school_management_android'[0m
+[0m[1;31m#     XDG_SESSION_DESKTOP = 'gnome'[0m
+[0m[1;31m#     LOGNAME = 'hkr'[0m
+[0m[1;31m#     QT_QPA_PLATFORMTHEME = 'qt5ct'[0m
+[0m[1;31m#     XDG_SESSION_TYPE = 'wayland'[0m
+[0m[1;31m#     GPG_AGENT_INFO = '/run/user/1000/gnupg/S.gpg-agent:0:1'[0m
+[0m[1;31m#     SYSTEMD_EXEC_PID = '2418'[0m
+[0m[1;31m#     BUNDLED_DEBUGPY_PATH = '/home/hkr/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'[0m
+[0m[1;31m#     XAUTHORITY = '/run/user/1000/.mutter-Xwaylandauth.P666N3'[0m
+[0m[1;31m#     VSCODE_GIT_ASKPASS_NODE = '/usr/share/code/code'[0m
+[0m[1;31m#     GJS_DEBUG_TOPICS = 'JS ERROR;JS LOG'[0m
+[0m[1;31m#     COMMAND_NOT_FOUND_INSTALL_PROMPT = '1'[0m
+[0m[1;31m#     VSCODE_INJECTION = '1'[0m
+[0m[1;31m#     GDM_LANG = 'en_US.UTF-8'[0m
+[0m[1;31m#     HOME = '/home/hkr'[0m
+[0m[1;31m#     USERNAME = 'hkr'[0m
+[0m[1;31m#     CLOUDSDK_PROXY_TYPE = 'https'[0m
+[0m[1;31m#     LANG = 'en_US.UTF-8'[0m
+[0m[1;31m#     LS_COLORS = 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.7z=01;31:*.ace=01;31:*.alz=01;31:*.apk=01;31:*.arc=01;31:*.arj=01;31:*.bz=01;31:*.bz2=01;31:*.cab=01;31:*.cpio=01;31:*.crate=01;31:*.deb=01;31:*.drpm=01;31:*.dwm=01;31:*.dz=01;31:*.ear=01;31:*.egg=01;31:*.esd=01;31:*.gz=01;31:*.jar=01;31:*.lha=01;31:*.lrz=01;31:*.lz=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.lzo=01;31:*.pyz=01;31:*.rar=01;31:*.rpm=01;31:*.rz=01;31:*.sar=01;31:*.swm=01;31:*.t7z=01;31:*.tar=01;31:*.taz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tgz=01;31:*.tlz=01;31:*.txz=01;31:*.tz=01;31:*.tzo=01;31:*.tzst=01;31:*.udeb=01;31:*.war=01;31:*.whl=01;31:*.wim=01;31:*.xz=01;31:*.z=01;31:*.zip=01;31:*.zoo=01;31:*.zst=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.jxl=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90::ow=30;44:'[0m
+[0m[1;31m#     XDG_CURRENT_DESKTOP = 'GNOME'[0m
+[0m[1;31m#     CLOUDSDK_PROXY_PORT = '3128'[0m
+[0m[1;31m#     VIRTUAL_ENV = '/home/hkr/جهاد/school_management_android/venv'[0m
+[0m[1;31m#     PYTHONSTARTUP = '/home/hkr/.config/Code/User/workspaceStorage/7b4f3cd85b7eb056d33bf06694170d32/ms-python.python/pythonrc.py'[0m
+[0m[1;31m#     MEMORY_PRESSURE_WATCH = '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure'[0m
+[0m[1;31m#     WAYLAND_DISPLAY = 'wayland-0'[0m
+[0m[1;31m#     DOCKER_HTTP_PROXY = 'http://localhost:3128'[0m
+[0m[1;31m#     MANROFFOPT = '-c'[0m
+[0m[1;31m#     TMPDIR = '/home/hkr/.vscode/tmp/tmp_vscode_1'[0m
+[0m[1;31m#     GIT_ASKPASS = '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'[0m
+[0m[1;31m#     INVOCATION_ID = 'a0e660fa7fd942379cd4788633efc786'[0m
+[0m[1;31m#     MANAGERPID = '2194'[0m
+[0m[1;31m#     CHROME_DESKTOP = 'code.desktop'[0m
+[0m[1;31m#     CLAUDE_TMPDIR = '/home/hkr/.vscode/tmp/tmp_vscode_1'[0m
+[0m[1;31m#     GJS_DEBUG_OUTPUT = 'stderr'[0m
+[0m[1;31m#     VSCODE_GIT_ASKPASS_EXTRA_ARGS = ''[0m
+[0m[1;31m#     GNOME_SETUP_DISPLAY = ':1'[0m
+[0m[1;31m#     VSCODE_PYTHON_AUTOACTIVATE_GUARD = '1'[0m
+[0m[1;31m#     XDG_SESSION_CLASS = 'user'[0m
+[0m[1;31m#     TERM = 'xterm-256color'[0m
+[0m[1;31m#     LESS_TERMCAP_mb = '\x1b[1;31m'[0m
+[0m[1;31m#     PYTHON_BASIC_REPL = '1'[0m
+[0m[1;31m#     LESS_TERMCAP_me = '\x1b[0m'[0m
+[0m[1;31m#     LESS_TERMCAP_md = '\x1b[1;36m'[0m
+[0m[1;31m#     ZDOTDIR = '/home/hkr'[0m
+[0m[1;31m#     USER = 'hkr'[0m
+[0m[1;31m#     GIT_PAGER = 'cat'[0m
+[0m[1;31m#     NO_PROXY = 'localhost,127.0.0.1,::1,*.local,.local,169.254.0.0/16,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16'[0m
+[0m[1;31m#     VSCODE_GIT_IPC_HANDLE = '/run/user/1000/vscode-git-cfc64af9f5.sock'[0m
+[0m[1;31m#     FTP_PROXY = 'socks5h://localhost:1080'[0m
+[0m[1;31m#     DISPLAY = ':0'[0m
+[0m[1;31m#     RSYNC_PROXY = 'localhost:1080'[0m
+[0m[1;31m#     SHLVL = '3'[0m
+[0m[1;31m#     LESS_TERMCAP_ue = '\x1b[0m'[0m
+[0m[1;31m#     LESS_TERMCAP_us = '\x1b[1;32m'[0m
+[0m[1;31m#     GIT_MERGE_AUTOEDIT = 'no'[0m
+[0m[1;31m#     GIT_EDITOR = ':'[0m
+[0m[1;31m#     HTTPS_PROXY = 'http://localhost:3128'[0m
+[0m[1;31m#     HTTP_PROXY = 'http://localhost:3128'[0m
+[0m[1;31m#     QT_IM_MODULE = 'ibus'[0m
+[0m[1;31m#     VIRTUAL_ENV_PROMPT = 'venv'[0m
+[0m[1;31m#     MANAGERPIDFDID = '2195'[0m
+[0m[1;31m#     GRPC_PROXY = 'socks5h://localhost:1080'[0m
+[0m[1;31m#     FC_FONTATIONS = '1'[0m
+[0m[1;31m#     XDG_RUNTIME_DIR = '/run/user/1000'[0m
+[0m[1;31m#     PS1 = '(venv) '[0m
+[0m[1;31m#     ALL_PROXY = 'socks5h://localhost:1080'[0m
+[0m[1;31m#     IM_CONFIG_ENTRY = 'profile'[0m
+[0m[1;31m#     VSCODE_GIT_ASKPASS_MAIN = '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'[0m
+[0m[1;31m#     QT_AUTO_SCREEN_SCALE_FACTOR = '0'[0m
+[0m[1;31m#     JOURNAL_STREAM = '9:15238'[0m
+[0m[1;31m#     XDG_DATA_DIRS = '/usr/share/gnome:/usr/local/share/:/usr/share/'[0m
+[0m[1;31m#     GDK_BACKEND = 'wayland'[0m
+[0m[1;31m#     all_proxy = 'socks5h://localhost:1080'[0m
+[0m[1;31m#     PATH = '/home/hkr/.buildozer/android/platform/apache-ant-1.9.4/bin:/home/hkr/جهاد/school_management_android/venv/bin:/home/hkr/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hkr/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/hkr/.local/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/hkr/.dotnet/tools:/home/hkr/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/usr/share/code/resources/app/node_modules/@vscode/ripgrep/bin'[0m
+[0m[1;31m#     SANDBOX_RUNTIME = '1'[0m
+[0m[1;31m#     GDMSESSION = 'gnome'[0m
+[0m[1;31m#     DBUS_SESSION_BUS_ADDRESS = 'unix:path=/run/user/1000/bus'[0m
+[0m[1;31m#     CLOUDSDK_PROXY_ADDRESS = 'localhost'[0m
+[0m[1;31m#     CLAUDE_CODE_HOST_HTTP_PROXY_PORT = '45175'[0m
+[0m[1;31m#     GIO_LAUNCHED_DESKTOP_FILE_PID = '282037'[0m
+[0m[1;31m#     GIO_LAUNCHED_DESKTOP_FILE = '/usr/share/applications/code.desktop'[0m
+[0m[1;31m#     OLDPWD = '/home/hkr/جهاد'[0m
+[0m[1;31m#     DOCKER_HTTPS_PROXY = 'http://localhost:3128'[0m
+[0m[1;31m#     TERM_PROGRAM = 'vscode'[0m
+[0m[1;31m#     _ = '/home/hkr/جهاد/school_management_android/venv/bin/buildozer'[0m
+[0m[1;31m# [0m
+[0m[1;31m# Buildozer failed to execute the last command[0m
+[0m[1;31m# The error might be hidden in the log above this error[0m
+[0m[1;31m# Please read the full log, and search for it before[0m
+[0m[1;31m# raising an issue with buildozer itself.[0m
+[0m[1;31m# In case of a bug report, please add a full log with log_level = 2[0m
