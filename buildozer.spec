@@ -18,8 +18,7 @@ source.exclude_dirs = tests, bin, venv
 
 version = 1.0.0
 
-requirements = python3,kivy==2.2.1,kivymd==1.1.1,plyer
-
+requirements = python3,kivy==2.2.1,kivymd==1.1.1,sdl2,sdl2_image,sdl2_mixer,sdl2_ttf,pillow,plyer
 orientation = portrait
 
 osx.python_version = 3
