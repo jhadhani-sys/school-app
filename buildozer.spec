@@ -4,7 +4,7 @@ title = School Management System
 
 package.name = schoolmanagement
 
-package.domain = com.yourcompany
+package.domain = org.jhad
 
 source.dir = .
 
@@ -31,7 +31,7 @@ android.presplash_color = #FFFFFF
 
 android.permissions = INTERNET,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
 
-android.api = 33
+android.api = 31
 
 android.minapi = 21
 
